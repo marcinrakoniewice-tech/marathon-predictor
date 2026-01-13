@@ -1348,3 +1348,58 @@ pickle: {'deps_info': {'pip': '25.3', 'setuptools': '80.9.0', 'pycaret': '3.3.2'
 2026-01-13 12:40:11,211:INFO:Preloading libraries
 2026-01-13 12:40:11,211:INFO:Set up data.
 2026-01-13 12:40:11,224:INFO:Set up index.
+2026-01-13 15:45:44,084:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-13 15:45:44,084:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-13 15:45:44,084:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-13 15:45:44,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-13 15:45:49,188:INFO:Initializing load_model()
+2026-01-13 15:45:49,188:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 15:45:49,192:WARNING:C:\Conda\envs\mod_9_projekt_v1\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-01-13 15:46:29,872:INFO:Initializing load_model()
+2026-01-13 15:46:29,872:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 15:46:30,110:INFO:Initializing load_model()
+2026-01-13 15:46:30,110:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 15:46:45,649:INFO:Initializing load_model()
+2026-01-13 15:46:45,649:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 15:46:47,388:INFO:Initializing load_model()
+2026-01-13 15:46:47,388:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 15:46:57,350:INFO:Initializing load_model()
+2026-01-13 15:46:57,350:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 15:46:57,587:INFO:Initializing load_model()
+2026-01-13 15:46:57,587:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 15:46:59,119:INFO:Initializing predict_model()
+2026-01-13 15:46:59,119:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002A9E7045B90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['plec', 'wiek', '5km_s'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('actual_estimator', HuberRegressor())]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002A9E70651C0>)
+2026-01-13 15:46:59,119:INFO:Checking exceptions
+2026-01-13 15:46:59,119:INFO:Preloading libraries
+2026-01-13 15:46:59,120:INFO:Set up data.
+2026-01-13 15:46:59,125:INFO:Set up index.
+2026-01-13 16:27:59,697:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-13 16:27:59,698:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-13 16:27:59,698:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-13 16:27:59,698:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-13 16:28:02,443:INFO:Initializing load_model()
+2026-01-13 16:28:02,443:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 16:28:02,445:WARNING:C:\Conda\envs\mod_9_projekt_v1\Lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-01-13 16:28:10,379:INFO:Initializing load_model()
+2026-01-13 16:28:10,379:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
+2026-01-13 16:28:10,634:INFO:Initializing load_model()
+2026-01-13 16:28:10,634:INFO:load_model(model_name=marathon_model_v1, platform=None, authentication=None, verbose=True)
